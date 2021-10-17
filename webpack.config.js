@@ -1,12 +1,12 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const PORT = process.env.PORT || 4447
+const PORT = process.env.PORT || 4443
 module.exports = {
   entry: './src/index.js',
   mode: 'development',
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'my-timer-webpack.bundle.js',
+    filename: 'my-delay-webpack.bundle.js',
   },
   module: {
     rules: [
